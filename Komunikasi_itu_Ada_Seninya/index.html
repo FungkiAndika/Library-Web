@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF Viewer</title>
+<!-- Tambahkan dependensi Viewer.js -->
+<link rel="stylesheet" href="../viewerjs-1.11.6/src/css/viewer.css">
+<script src="../viewerjs-1.11.6/src/js/viewer.js"></script>
+</head>
+<body>
+<!-- Tambahkan tag img untuk menampilkan file PDF -->
+<img id="pdfViewer" src="nama_file.pdf" alt="PDF Viewer">
+
+<!-- Inisialisasi Viewer.js -->
+<script>
+    const viewer = new Viewer(document.getElementById('pdfViewer'), {
+        inline: false, // false untuk tampilan fullscreen
+        toolbar: {
+            zoomIn: 4,
+            zoomOut: 4,
+            oneToOne: 4,
+            reset: 4,
+            prev: 4,
+            play: {
+                show: 4,
+                size: 'large',
+            },
+            next: 4,
+            rotateLeft: 4,
+            rotateRight: 4,
+            flipHorizontal: 4,
+            flipVertical: 4,
+        },
+    });
+</script>
+</body>
+</html>

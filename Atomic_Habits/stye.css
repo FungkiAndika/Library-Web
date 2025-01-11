@@ -1,0 +1,80 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-family: arial;
+    
+}
+body {
+    background-color: #ececec;
+   
+}
+.container {
+    margin: 0;
+    
+img {
+    width: 100%;
+    margin: 0;
+}
+.img{
+    margin: 0;
+}
+
+.s {
+    list-style-type: number;
+    font-size: 13px;
+    list-style-position: outside;
+}
+ul{
+    padding: 35px;
+    list-style-type: number;
+    list-style-position: outside;
+}
+li {
+    margin-left: 40px;
+    
+}
+#DaftarIsi{
+    display: flex;
+    
+    height: 100px;
+    
+}
+#daftarnama {
+    font-size: 10px;
+    text-align:center;
+    
+}
+.daftar{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nnh{
+    text-align: center;
+    font-size: 60px;
+    
+}
+p{
+    text-indent: 0.3in;
+    
+}
+h2, h1{
+    text-align: center;
+}
+.judul-hitam{
+    background-color: black;
+    color: white;
+    
+}
+.h1-judul-hitam{
+    font-size: 50px;
+}
+.p-judul-hitam{
+    text-align: center;
+    font-size: 40px;
+}

@@ -1,0 +1,42 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: monoscape;
+}
+
+
+img {
+    width: 100%;
+}
+
+div {
+    padding: 30px;
+}
+.s {
+    list-style-type: number;
+    font-size: 13px;
+    list-style-position: outside;
+}
+
+.dafis {
+    text-align: center;
+    font-size: 500%;
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+.isi {
+    list-style-type: number;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    text-indent: 0.8in;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

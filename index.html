@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="in">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Buku</title>
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="../free.min.css">
+  <link rel="stylesheet" href="../brand.min.css">
+  <link rel="stylesheet" href="../flag.min.css">
+  <style type="text/css" media="all">
+    .BulatWarna {
+      width: 4%;
+      padding: 0;
+      margin:0;
+      align-self: center;
+    }
+    .sansSerif {
+      font-family: helvetica;
+    }
+  </style>
+  <script src="jquery-3.7.0.min.js"></script>
+
+</head>
+
+<body class="bg-warning">
+  <!-- INI NAVBAR -->
+  
+  <nav class="navbar bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Fungki</a>
+      <!-- <form action="https://www.google.com/search" id="searchform" method="get" target="_top" class="d-flex position-absolute top-50 end-0 translate-middle-y pl-3" role="search">
+                          <input class="form-control me-2 " type="search" placeholder="Google Search" aria-label="Search" autocomplete="off" name="q"  required="required" value="">
+                          <button class="btn btn-outline-success bg-grey btn-outline-light" type="submit">Search</button>
+                        </form> -->
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+  <div>
+
+    <div class="bg-light">
+    <!-- Kode Warna -->
+    <div class="p-3" role="group">
+      
+      <center>
+        <b>Informasi:</b>
+        <p class="sansSerif">Untuk tanda bulat hijau <img class="BulatWarna"src="hijauB.png" alt="bulat hijau" /> artinya buku tersedia sedangkan bulat merah <img class="BulatWarna" src="merahB.png" alt="bulat merah"/> artinya tidak tersedia</p></center>
+        <hr />
+    </div>
+    <!-- Kode Warna End-->
+      <!-- ini. card -->
+      <div id="contentBook" class="p-2 container-fluid d-flex justify-content-center row m-auto mt-3">
+
+
+      </div>
+      <!-- ini btn drpdwn -->
+      <div class="btn-group p-3 " role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-warning">1</button>
+        <button type="button" class="btn btn-warning">2</button>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Page
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../index.html">Home</a></li>
+            <li><a class="dropdown-item" href="#">eBook</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ini btn drpdwn -->
+
+    </div>
+
+
+
+
+    <!-- CARD END -->
+  </div>
+</div>
+
+<center>
+  <br>
+
+  <br>
+  <p>
+    Copyright @funlimit | Contact:<br>
+    <a>IG: @fungki4444</a> | <a>Email: funlimitcool@gmail.com</a>
+  </p>
+
+</center>
+<script src="../bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="iman.js" type="text/javascript" charset="utf-8"></script>
+<!-- <script>
+  $.getJSON('bookList_v1.json', function (data){
+  let list = data.buku;
+  console.log(list);
+  $.each(list, function (i, data){
+    $('#contentBook').append('<div class="card text-bg-light mb-3" style="max-width: 18rem;"><img class="img-thumbnail" src="'+ data.gambar +'" class="card-img-top"><div class="card-body"><h5 class="card-title">'+ data.judul +'</h5><a class="btn btn-outline-warning" href="">baca</a></div></div>');
+      console.log(list);
+  });
+});
+</script> -->
+</body>
+
+</html>
